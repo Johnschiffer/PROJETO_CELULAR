@@ -6,9 +6,17 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+    max-width: 100%;
 
     /* Adicionar espaçamento no topo para compensar */
     padding-top: 130px;
+}
+
+html, body {
+    margin: 0;
+    /* padding: 0; */
+    width: 100%;
 }
 
 /* BOTAO COMPRAR */
@@ -121,4 +129,27 @@ section {
     padding: 20px !important; /* Espaçamento interno */
     border-radius: 8px !important; /* Bordas arredondadas, opcional */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1) !important; /* Sombra sutil */
+}
+
+/* Ajustar responsividade */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
 }
