@@ -8,8 +8,22 @@ body {
     padding: 0;
 
     /* Adicionar espaçamento no topo para compensar */
-    padding-top: 100px;
+    padding-top: 130px;
 }
+
+/* CENTRALIZAR MENU */
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+.nav-item {
+    margin: 0 10px; /* Espaçamento opcional entre os itens */
+}
+
+
+
 
 main {
     background-color: #181818;
