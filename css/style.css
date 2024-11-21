@@ -11,6 +11,12 @@ body {
     padding-top: 130px;
 }
 
+/* COR MENU*/
+nav.bg-dark {
+    background-color: #504e4e !important;
+    color: #fff !important;
+}
+
 /* CENTRALIZAR MENU */
 .navbar-nav {
     display: flex;
